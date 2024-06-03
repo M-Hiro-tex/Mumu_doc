@@ -10,4 +10,9 @@ setup(
         'vispy',
         'mkdocs'
     ],
+    entry_points={
+        'mkdocs.plugins': [
+            'vispy_plugin = plugins.vispy_plugin:VisPyPlugin'
+        ]
+    }
 )

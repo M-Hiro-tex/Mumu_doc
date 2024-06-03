@@ -1,5 +1,5 @@
 # Page 2
 
 ## Author heading
-![alt image]{Project_dir}
+{% plugins.vispy_plugin.VisPyPlugin %}
 some more test
