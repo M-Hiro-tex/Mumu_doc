@@ -8,5 +8,6 @@ setup(
         # 依存するパッケージをここに指定
         'numpy',
         'vispy',
+        'mkdocs'
     ],
 )

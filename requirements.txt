@@ -2,3 +2,4 @@ mkdocs
 mkdocs-material
 numpy
 vispy
+setuptools
