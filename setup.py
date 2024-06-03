@@ -12,7 +12,7 @@ setup(
     ],
     entry_points={
         'mkdocs.plugins': [
-            'vispy_plugin = plugins.vispy_plugin:VisPyPlugin'
+            'vispy_plugin = Project_dir.vispy_plugin:VisPyPlugin'
         ]
     }
 )
