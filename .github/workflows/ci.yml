@@ -18,5 +18,6 @@ jobs:
           key: ${{github.ref}}
           path: .csche
       - run: pip install mkdocs-material
-      - run mkdocs gh-deploy --force
+      - run mkdocs main --force
 
+git push origin 
