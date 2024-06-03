@@ -45,7 +45,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
-  - plugins.vispy_plugin.VisPyPlugin
+  - Project_dir.vispy_plugin.VisPyPlugin
 
 copyright: 
   &copy 2024 <a href="https://github.com/M-Hiro-tex" target="_blank" rel="noopener">Hiromu Sato</a> 
