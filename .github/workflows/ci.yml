@@ -19,5 +19,5 @@ jobs:
           path: .csche
       - run: pip install -r requirements.txt
       - run: python setup.py install
-      - run: pip install vispy_plugin
+      #- run: pip install vispy_plugin
       - run: mkdocs gh-deploy --force
