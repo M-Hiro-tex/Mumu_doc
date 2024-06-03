@@ -19,4 +19,5 @@ jobs:
           path: .csche
       - run: pip install -r requirements.txt
       - run: python setup.py install
+      - run: pip install Project_dir
       - run: mkdocs gh-deploy --force
