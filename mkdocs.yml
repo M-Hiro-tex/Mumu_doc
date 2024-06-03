@@ -44,5 +44,8 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
+plugins:
+  - Project_dir:
+
 copyright: 
   &copy 2024 <a href="https://github.com/M-Hiro-tex" target="_blank" rel="noopener">Hiromu Sato</a> 
