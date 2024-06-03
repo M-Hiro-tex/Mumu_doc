@@ -1,4 +1,6 @@
 import numpy as np
+import vispy.scene
+from vispy.scene import visuals
 from mkdocs.plugins import BasePlugin
 
 class VisPyPlugin(BasePlugin):

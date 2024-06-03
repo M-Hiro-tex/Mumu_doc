@@ -17,5 +17,6 @@ jobs:
         with:
           key: ${{github.ref}}
           path: .csche
-      - run: pip install mkdocs-material
+      - run: pip install -r requirements.txt
+      - run: python setup.py install
       - run: mkdocs gh-deploy --force
